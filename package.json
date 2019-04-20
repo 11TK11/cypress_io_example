@@ -1,0 +1,32 @@
+{
+  "name": "cypress-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "chance": "^1.0.18",
+    "cypress": "^3.1.5",
+    "mochawesome-report-generator": "^3.1.5"
+  },
+  "devDependencies": {
+    "cypress-cucumber-preprocessor": "^1.11.0",
+    "mocha": "^5.2.0",
+    "mochawesome": "^3.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/kevin.sanchez/cypress-example.git"
+  },
+  "author": "Kevin Sanchez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/kevin.sanchez/cypress-example/issues"
+  },
+  "homepage": "https://gitlab.com/kevin.sanchez/cypress-example#readme",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}

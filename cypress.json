@@ -1,0 +1,7 @@
+{
+    "baseUrl": "https://trello.com",
+    "ignoreTestFiles": "*.js",
+    "viewportWidth": 1400,
+    "viewportHeight": 800,
+    "reporter": "mochawesome"
+}
